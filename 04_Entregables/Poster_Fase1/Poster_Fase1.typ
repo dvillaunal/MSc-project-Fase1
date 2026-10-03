@@ -219,7 +219,7 @@
 #let fondo = rgb("#F3F4F1")
 
 #let ancho-col = 37.6cm
-#let alto-fila = 27.4cm
+#let alto-fila = 27.0cm
 
 // Tarjeta de sección numerada.
 #let seccion(num, titulo, subtitulo: none, cuerpo) = block(
@@ -334,16 +334,20 @@
   ],
 
   seccion(4, [Proceso o método], subtitulo: [Cómo])[
-    #let paso(n, t, d) = block(width: 100%, height: 8.8cm, fill: verde.lighten(82%), inset: 0.5cm, radius: 0.3cm)[
-      #text(size: 26pt, weight: "bold", fill: verde-osc)[#n. #t] \
-      #text(size: 22pt)[#d]
+    #let paso(n, t, ..d) = block(width: 100%, height: 9.3cm, fill: verde.lighten(82%), inset: (x: 0.6cm, y: 0.7cm), radius: 0.3cm)[
+      #set align(top + left)
+      #text(size: 27pt, weight: "bold", fill: verde-osc)[#n. #t]
+      #v(0.35cm)
+      #set text(size: 22pt)
+      #set par(leading: 0.3em)
+      #stack(dir: ttb, spacing: 0.6cm, ..d.pos())
     ]
-    #let flecha = text(size: 40pt, fill: verde)[→]
-    #grid(columns: (1fr, auto, 1fr, auto, 1fr, auto, 1fr), column-gutter: 0.25cm, align: horizon,
-      paso(1, [Adquisición], [APIs de datos.gov.co, 88 boletines, 113 noticias, 102 posts en X y 16 comentarios en Facebook]), flecha,
-      paso(2, [Validación], [Fiabilidad A–F y credibilidad 1–6; contraste entre registros]), flecha,
-      paso(3, [Exploración], [Tasas con población DANE, comparación departamental y municipal]), flecha,
-      paso(4, [Fase 2], [Modelo espacial con variables de texto]),
+    #let flecha = text(size: 34pt, fill: verde)[→]
+    #grid(columns: (1fr, auto, 1fr, auto, 1fr, auto, 1fr), column-gutter: 0.2cm, align: horizon,
+      paso(1, [Adquisición], [datos.gov.co y DANE], [88 boletines], [113 noticias], [102 posts en X], [16 comentarios en Facebook]), flecha,
+      paso(2, [Validación], [Fiabilidad A–F y credibilidad 1–6], [Contraste entre registros oficiales]), flecha,
+      paso(3, [Exploración], [Tasas con población DANE], [Comparación departamental y municipal]), flecha,
+      paso(4, [Fase 2], [Panel municipio–año], [Modelo espacial con variables de texto]),
     )
     #v(0.4cm)
     #text(size: 34pt, weight: "bold", fill: verde-osc)[Alcance según los datos]
@@ -383,11 +387,11 @@
 
 #grid(
   columns: (1fr, 1fr, 1fr), column-gutter: 1.2cm,
-  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+  block(width: 100%, height: 14.4cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
     #text(size: 44pt, weight: "bold", fill: verde-osc)[7\. Referencias]
     #v(0.2cm)
     #set text(font: "Ancizar Serif", size: 22pt)
-    #set par(hanging-indent: 1.2em, leading: 0.45em, spacing: 0.5em)
+    #set par(hanging-indent: 1.2em, leading: 0.48em, spacing: 0.62em)
     Congreso de la República de Colombia. (2015). _Ley 1761 de 2015, por la cual se crea el tipo penal de feminicidio como delito autónomo_. Diario Oficial.
 
     Fiscalía General de la Nación. (2026). _Víctimas Fiscalía – V3_ [Conjunto de datos]. Datos Abiertos Colombia. https://www.datos.gov.co/d/hr73-zqjf
@@ -400,19 +404,19 @@
 
     Observatorio Feminicidios Colombia. (2017–2024). _Ni una menos: boletín de feminicidios en Medellín y el Valle de Aburrá_. Red Feminista Antimilitarista.
   ],
-  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+  block(width: 100%, height: 14.4cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
     #text(size: 44pt, weight: "bold", fill: verde-osc)[Más información]
     #v(0.3cm)
     #grid(columns: (9.5cm, 1fr), column-gutter: 1cm, align: horizon,
       image("figuras/qr_repositorio.svg", width: 9.5cm),
       [
-        #text(size: 28pt)[Repositorio del proyecto: código, datos procesados y notas de trabajo.]
+        #text(size: 28pt)[Repositorio del proyecto: póster, datos agregados y código para reproducir cada cifra.]
         #v(0.4cm)
-        #text(size: 22pt, fill: gris)[github.com/dvillaunal/Msc-Project]
+        #text(size: 24pt, fill: gris)[github.com/dvillaunal/MSc-project-Fase1]
       ],
     )
   ],
-  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+  block(width: 100%, height: 14.4cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
     #text(size: 44pt, weight: "bold", fill: verde-osc)[Directores / Asesores]
     #v(0.5cm)
     #grid(columns: (1fr, 9.5cm), column-gutter: 1cm, align: horizon,

@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.quarto/
+*.knit.md
+03_Fuentes_y_Datos/datos/crudos/

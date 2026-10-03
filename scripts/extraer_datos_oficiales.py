@@ -10,10 +10,10 @@ Fuentes (todas en datos.gov.co, API Socrata, sin clave obligatoria):
 Escribe:
   03_Fuentes_y_Datos/datos/crudos/<fuente>/*.json      respuestas originales de la API (con URL y fecha)
   03_Fuentes_y_Datos/datos/procesados/*.csv             tablas ordenadas
-  03_Fuentes_y_Datos/Datos_Oficiales_Feminicidio.md     nota con resultados y clasificación (A1-F6)
 
 Uso:  .venv/bin/python scripts/extraer_datos_oficiales.py
-Requiere internet. Credenciales opcionales en .env: SOCRATA_APP_TOKEN, o SOCRATA_API_KEY_ID + SOCRATA_API_KEY_SECRET.
+Requiere internet. Fase 1 pide solo conteos agregados a la API, no las bases completas.
+Credenciales opcionales en .env: SOCRATA_APP_TOKEN, o SOCRATA_API_KEY_ID + SOCRATA_API_KEY_SECRET.
 """
 from __future__ import annotations
 
@@ -25,11 +25,10 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from _comun import RAIZ, avisar_si_fuera_de_venv, cargar_env, sin_acentos
+from _entorno import RAIZ, avisar_si_fuera_de_venv, cargar_env, sin_acentos
 
 DATOS = RAIZ / "03_Fuentes_y_Datos" / "datos"
 CRUDOS, PROC = DATOS / "crudos", DATOS / "procesados"
-NOTA = RAIZ / "03_Fuentes_y_Datos" / "Datos_Oficiales_Feminicidio.md"
 API = "https://www.datos.gov.co/resource/{}.json"
 PAGINA = "https://www.datos.gov.co/d/{}"
 DANE_URL = ("https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Departamental/"
@@ -190,14 +189,8 @@ def codigo_corroboracion(a: float, b: float) -> tuple[str, float]:
     return ("2" if dif <= 10 else "3" if dif <= 25 else "4"), dif
 
 
-def fmt(x, dec=0) -> str:
-    if pd.isna(x):
-        return "—"
-    return f"{x:,.{dec}f}".replace(",", "X").replace(".", ",").replace("X", ".")
-
-
-def main() -> int:
-    avisar_si_fuera_de_venv()
+def procesar() -> dict:
+    """Descarga, limpia y guarda los CSV. Devuelve las tablas de resumen."""
     PROC.mkdir(parents=True, exist_ok=True)
     pob = poblacion_mujeres()
     pob.to_csv(PROC / "dane_mujeres_depto_anio.csv", index=False)
@@ -237,117 +230,17 @@ def main() -> int:
                   ("antioquia_agresor_anio", ag[ag["departamento"] == "ANTIOQUIA"])):
         df.to_csv(PROC / f"{k}.csv", index=False)
 
-    escribir_nota(an_f, an_p, an_m, rk, corr, ag_ant, ag_col, agresores_ant, arma, zona, muni, ultimo)
-    print(f"Nota escrita: {NOTA.relative_to(RAIZ)}")
+    return dict(an_f=an_f, an_p=an_p, an_m=an_m, rk=rk, corr=corr, ag_ant=ag_ant, ag_col=ag_col,
+                agresores_ant=agresores_ant, arma=arma, zona=zona, muni=muni, ultimo=ultimo)
+
+
+def main() -> int:
+    avisar_si_fuera_de_venv()
+    r = procesar()
+    print(f"CSV guardados en {PROC.relative_to(RAIZ)}")
+    for _, f in r["corr"].iterrows():
+        print(f"  Antioquia {f['anio']}: Policía {f['n_pol']:.0f} | Medicina Legal {f['n_ml']:.0f} | diferencia {f['dif']:.1f} %")
     return 0
-
-
-# ---------------------------------------------------------------- nota markdown
-def escribir_nota(an_f, an_p, an_m, rk, corr, ag_ant, ag_col, agresores_ant, arma, zona, muni, ultimo) -> None:
-    L = ["---", "tags:", "  - datos-oficiales", "  - feminicidio", "  - tesis-antioquia", "  - fuente",
-         "aliases:", "  - Datos oficiales de feminicidio", "tipo: fuente", "clasificacion: B3", f"actualizado: {HOY}", "---", "",
-         "# Datos oficiales: feminicidio y homicidio de mujeres en Antioquia y Colombia", "",
-         f"Generado por `scripts/extraer_datos_oficiales.py` el {HOY} con datos abiertos de datos.gov.co y el DANE. "
-         "No se editó a mano: para actualizar, vuelve a ejecutar el script. Clasificación según [[Sistema_de_Clasificacion_de_Fuentes]].", "",
-         "> [!warning] Tres medidas distintas, no se suman ni se comparan como si fueran la misma",
-         "> - **Fiscalía:** víctimas registradas en procesos por el delito de feminicidio (Art. 104A). Una persona puede aparecer más de una vez. Los años recientes están incompletos porque la tipificación tarda.",
-         "> - **Policía:** homicidios intencionales de mujeres (todas las causas, no solo feminicidio).",
-         "> - **Medicina Legal:** presuntos homicidios de mujeres según necropsia; 2015-2024 definitivo, 2025-2026 preliminar.",
-         "> La tasa es por 100.000 mujeres con la población proyectada por el DANE (solo desde 2018).", "",
-         "## 1. Fuentes y clasificación", "",
-         "| Fuente | Conjunto | Enlace | Clasif. | Motivo |", "| :-- | :-- | :-- | :-: | :-- |"]
-    motivos = {
-        "fiscalia": ("B3", "Entidad oficial que define la categoría legal; sin otra fuente independiente con la misma definición; rezago y registros repetidos."),
-        "policia": ("B" + corr["codigo"].mode().iat[0] if len(corr) else "B6", "Registro oficial; corroborado con Medicina Legal año a año (ver sección 5)."),
-        "ml_def": ("B" + corr["codigo"].mode().iat[0] if len(corr) else "B6", "Registro forense oficial definitivo; corroborado con Policía (sección 5)."),
-        "ml_pre": ("B4", "Oficial pero preliminar: puede cambiar."),
-    }
-    for k, v in FUENTES.items():
-        c, mot = motivos[k]
-        L.append(f"| {v['nombre']} | `{v['id']}` | [datos.gov.co]({PAGINA.format(v['id'])}) | {c} | {mot} |")
-    L += [f"| DANE – Proyecciones de población 2018-2050 | xlsx | [dane.gov.co]({DANE_URL}) | A2 | Denominador oficial usado por las entidades; es proyección, no conteo. |", ""]
-
-    def tabla(an: pd.DataFrame, titulo: str) -> list[str]:
-        out = [f"### {titulo}", "", "| Año | Antioquia | % de Colombia | Tasa Antioquia | Tasa Colombia | Puesto de Antioquia (tasa) | Colombia |",
-               "| :-: | :-: | :-: | :-: | :-: | :-: | :-: |"]
-        for _, r in an.iterrows():
-            out.append(f"| {int(r['anio'])}{' (parcial)' if int(r['anio']) == 2026 else ''} | {fmt(r['n'])} | {fmt(r['pct_nacional'], 1)}% | {fmt(r['tasa'], 2)} | {fmt(r['tasa_colombia'], 2)} | "
-                       f"{fmt(r['puesto'])} | {fmt(r['colombia'])} |")
-        return out + [""]
-
-    L += ["## 2. Antioquia frente a Colombia, año por año", "",
-          "2026 es parcial: Policía hasta la fecha de corte del conjunto y Medicina Legal hasta julio.", ""]
-    L += tabla(an_f[an_f["anio"] >= 2015], "Fiscalía: víctimas registradas por feminicidio")
-    L += tabla(an_p[an_p["anio"] >= 2015], "Policía: homicidios de mujeres")
-    L += tabla(an_m, "Medicina Legal: homicidios de mujeres (2025-2026 preliminar)")
-
-    L += [f"## 3. Antioquia frente a otros departamentos ({ultimo})", "",
-          "Diez departamentos con mayor tasa por 100.000 mujeres. Departamentos con poca población pueden tener tasas altas con pocos casos.", ""]
-    for nombre, d in rk.items():
-        L += [f"### {nombre}", "", "| Puesto | Departamento | Casos | Tasa |", "| :-: | :-- | :-: | :-: |"]
-        for i, r in d.head(10).iterrows():
-            L.append(f"| {i + 1} | {'**' + r['departamento'] + '**' if r['departamento'] == 'ANTIOQUIA' else r['departamento']} | {fmt(r['n'])} | {fmt(r['tasa'], 2)} |")
-        pos = d.index[d["departamento"] == "ANTIOQUIA"]
-        if len(pos):
-            r = d.loc[pos[0]]
-            L.append(f"\nAntioquia: puesto **{pos[0] + 1}** de {len(d)} departamentos con casos registrados, con {fmt(r['n'])} casos y tasa {fmt(r['tasa'], 2)}.")
-        L.append("")
-
-    L += ["## 4. Antioquia por dentro", "", "### Presunto agresor (Medicina Legal, homicidios de mujeres)", "",
-          "| Año | Total | Pareja o expareja | % pareja | Agresor sin información o desconocido | % pareja entre casos con agresor conocido | % pareja en Colombia |", "| :-: | :-: | :-: | :-: | :-: | :-: | :-: |"]
-    agm = ag_ant.merge(ag_col, on="anio", suffixes=("", "_col"))
-    for _, r in agm.iterrows():
-        L.append(f"| {r['anio']} | {fmt(r['total'])} | {fmt(r['pareja'])} | {fmt(r['pareja'] / r['total'] * 100, 1)}% | {fmt(r['sin_info'])} | "
-                 f"{fmt(r['pareja'] / (r['total'] - r['sin_info']) * 100, 1)}% | {fmt(r['pareja_col'] / r['total_col'] * 100, 1)}% |")
-    L += ["", "Pareja o expareja = categorías de presunto agresor que contienen: " + ", ".join(AGRESOR_PAREJA) + ". "
-          "Un porcentaje alto de «sin información» limita la lectura.", "",
-          "Agresores más frecuentes en Antioquia desde 2020:", "", "| Presunto agresor | Casos |", "| :-- | :-: |"]
-    L += [f"| {r['agresor']} | {fmt(r['n'])} |" for _, r in agresores_ant.iterrows()]
-
-    L += ["", "### Arma o medio (Policía, homicidios de mujeres en Antioquia)", ""]
-    tab = arma.pivot_table(index="arma_medio", columns="anio", values="n", aggfunc="sum").fillna(0)
-    anios = [a for a in sorted(tab.columns) if a >= 2019]
-    tab = tab[anios]
-    tab["total"] = tab.sum(axis=1)
-    tab = tab.sort_values("total", ascending=False)
-    principales = tab.head(3)
-    otros = tab.iloc[3:].sum().to_frame("Otros medios").T
-    tab = pd.concat([principales, otros])
-    L += ["| Arma o medio | " + " | ".join(str(a) for a in anios) + " | % del periodo |", "| :-- |" + " :-: |" * (len(anios) + 1)]
-    tot = tab["total"].sum()
-    for idx, r in tab.iterrows():
-        L.append(f"| {idx} | " + " | ".join(fmt(r[a]) for a in anios) + f" | {fmt(r['total'] / tot * 100, 1)}% |")
-
-    L += ["", "### Zona (Policía)", ""]
-    tz = zona.pivot_table(index="anio", columns="zona", values="n", aggfunc="sum").fillna(0)
-    tz = tz[tz.index >= 2019]
-    L += ["| Año | " + " | ".join(tz.columns) + " |", "| :-: |" + " :-: |" * len(tz.columns)]
-    L += [f"| {a}{' (parcial)' if a == 2026 else ''} | " + " | ".join(fmt(v) for v in r) + " |" for a, r in tz.iterrows()]
-
-    tot_m = muni["n"].sum()
-    L += ["", "### Municipios con más homicidios de mujeres (Policía, 2018 a hoy)", "", "| Municipio | Casos | % de Antioquia |", "| :-- | :-: | :-: |"]
-    L += [f"| {r['municipio']} | {fmt(r['n'])} | {fmt(r['n'] / tot_m * 100, 1)}% |" for _, r in muni.head(15).iterrows()]
-
-    L += ["", "## 5. Corroboración entre fuentes (Antioquia)", "",
-          "Policía y Medicina Legal registran el mismo hecho por caminos independientes (denuncia y necropsia). "
-          "Regla: diferencia ≤ 10 % → 2 (probable); ≤ 25 % → 3 (posible); mayor → 4 (dudoso).", "",
-          "| Año | Policía | Medicina Legal | Diferencia | Número asignado |", "| :-: | :-: | :-: | :-: | :-: |"]
-    L += [f"| {r['anio']} | {fmt(r['n_pol'])} | {fmt(r['n_ml'])} | {fmt(r['dif'], 1)}% | {r['codigo']} |" for _, r in corr.iterrows()]
-
-    L += ["", "## 6. Fase 1: qué se bajó y cómo escalar", "",
-          "Regla R20 de [[Reglas_de_Oro]]: en Fase 1 se piden **agregados** a la API, no las bases completas.", "",
-          "| Fuente | Tamaño completo | Qué se bajó en Fase 1 | Cómo escalar en Fase 2 |", "| :-- | :-- | :-- | :-- |",
-          "| Fiscalía (`hr73-zqjf`) | ~17,6 millones de registros (todas las víctimas de todos los delitos) | Conteo por departamento y año del delito de feminicidio | Bajar solo filas de feminicidio y homicidio de mujeres de Antioquia, por lotes de 50.000 (`$limit`/`$offset`), y guardarlas en formato columnar (Parquet). |",
-          "| Policía (`m8fd-ahd9`) | ~345.000 filas desde 2003 | Agregados por departamento, año, arma, zona y municipio | Bajar las filas de Antioquia para el modelo municipal. |",
-          "| Medicina Legal (`vtub-3de2`, `2kpj-cktv`) | ~125.000 filas | Agregados por departamento, año y agresor | Bajar las filas de mujeres en Antioquia (≈1.500) con todas las variables. |", "",
-          "## 7. Cómo leer y usar estas cifras", "",
-          "- Para el póster usa una sola medida por gráfico y di cuál es. Ver [[Datos_Clave_para_el_Poster]].",
-          "- Las cifras de la Fiscalía de 2025-2026 subirán cuando avancen los procesos: no son una caída real.",
-          "- Las tasas departamentales usan la población proyectada de mujeres; no hay tasas antes de 2018 con este archivo.",
-          "", "## Notas relacionadas", "",
-          "- [[Registro_de_Fuentes]] (fuentes 88 en adelante)", "- [[01_Adquisicion_Datos_Scraping_y_Fronteras_Antioquia]]",
-          "- [[Revision_de_Cifras_y_Citas]]", "- Volver al [[Indice_Maestro]]", ""]
-    NOTA.write_text("\n".join(L), encoding="utf-8")
 
 
 if __name__ == "__main__":

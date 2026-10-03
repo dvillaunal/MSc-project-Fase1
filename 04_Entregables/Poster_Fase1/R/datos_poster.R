@@ -64,7 +64,7 @@ obs <- leer("observatorio_cifras.csv") |> filter(medida == "Antioquia, anual") |
 inv <- leer("observatorio_inventario.csv")
 c_boletines <- n_distinct(inv$pagina[!is.na(inv$archivo) & inv$archivo != ""])
 c_ocr <- sum(!is.na(inv$chars) & inv$chars < 500)
-# Noticias y redes: se cuentan desde los archivos completos (solo en la bóveda) y el conteo
+# Noticias y redes: se cuentan desde los archivos completos (solo en el repositorio de trabajo) y el conteo
 # queda en conteos_redes_noticias.csv, que es lo único que viaja al repositorio público.
 ult_noticias <- sort(list.files(file.path(CRUD, "noticias"), "google_news_.*\\.json$", full.names = TRUE), decreasing = TRUE)[1]
 ruta_conteos <- file.path(PROC, "conteos_redes_noticias.csv")

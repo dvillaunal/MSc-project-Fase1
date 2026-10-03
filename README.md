@@ -128,6 +128,13 @@ scripts/                               descarga de datos oficiales (Python)
 
 - **Fase 2.** Panel municipio–año 2015–2025. Extracción de variables de texto de prensa, boletines y redes: arma, vínculo con el agresor y lugar. Modelo espacial (regresión de Poisson geográficamente ponderada) para estimar cómo cambia el peso de cada factor según el territorio.
 
+## Licencia
+
+- **Código** (R, Python y formato Typst): [MIT](LICENSE).
+- **Póster, figuras y textos:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden reutilizar citando al autor.
+- **Datos:** son agregados derivados de fuentes públicas y conservan los términos de uso de cada entidad. Al reutilizarlos, cita la fuente original (tabla de la sección Datos).
+- **Escudo y logotipo de la Universidad Nacional de Colombia:** son marcas de la Universidad y no quedan cubiertos por estas licencias.
+
 ## Créditos
 
 - Formato del póster adaptado de [quarto-ext/typst-templates](https://github.com/quarto-ext/typst-templates/tree/main/poster). Esa plantilla se basa en typst-poster (MIT, © 2023 Parth Parikh).

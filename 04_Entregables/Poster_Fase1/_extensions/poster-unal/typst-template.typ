@@ -9,7 +9,7 @@
 #let fondo = rgb("#F3F4F1")
 
 #let ancho-col = 37.6cm
-#let alto-fila = 27.4cm
+#let alto-fila = 27.0cm
 
 // Tarjeta de sección numerada.
 #let seccion(num, titulo, subtitulo: none, cuerpo) = block(
