@@ -1,0 +1,1640 @@
+{
+ "fecha": "2026-10-03",
+ "en_linea": false,
+ "resumen": {
+  "total": 95,
+  "con_url_especifica": 0,
+  "solo_portada": 84,
+  "sin_url": 3,
+  "urls_unicas": 73,
+  "por_tipo": {
+   "Gobierno": 32,
+   "Académica": 27,
+   "Sin clasificar": 2,
+   "Prensa": 5,
+   "ONG u organismo internacional": 13,
+   "Herramienta o blog técnico": 12,
+   "Red social": 4
+  },
+  "por_uso": {
+   "Usada en el informe": 66,
+   "Consultada, no usada": 21,
+   "Datos descargados (Fase 1)": 8
+  },
+  "por_clasif": {
+   "B6": 34,
+   "C6": 36,
+   "F6": 2,
+   "D6": 14,
+   "E6": 4,
+   "B3": 1,
+   "B2": 2,
+   "B4": 1,
+   "A2": 1
+  }
+ },
+ "fuentes": [
+  {
+   "id": 1,
+   "uso": "Usada en el informe",
+   "titulo": "Informe de Gestión 2018 - Alcaldía de Medellín",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 2,
+   "uso": "Usada en el informe",
+   "titulo": "Sistema Integrado de Emergencias y Seguridad (SIES-M)",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 3,
+   "uso": "Usada en el informe",
+   "titulo": "La capacidad estatal coercitiva para contener el desplazamiento",
+   "dominio": "ridaa.unq.edu.ar",
+   "url_registrada": "https://ridaa.unq.edu.ar",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "tiempo agotado · 2026-10-03",
+   "_url_reg_txt": "https://ridaa.unq.edu.ar",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 4,
+   "uso": "Usada en el informe",
+   "titulo": "1. DATOS GENERALES: - Alcaldía de Medellín",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 5,
+   "uso": "Usada en el informe",
+   "titulo": "2012-2015 Alcalde Aníbal Gaviria Correa - Alcaldía de Medellín",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 6,
+   "uso": "Usada en el informe",
+   "titulo": "Informe de Gestión Alcaldía 2016-2019 \\",
+   "dominio": "es.scribd.com",
+   "url_registrada": "",
+   "url_especifica": "",
+   "nota": "PDF - Scribd",
+   "clasif": "F6",
+   "motivo": "(auto) fuente no evaluada; contenido no verificado: solo se registró el dominio",
+   "verif": "",
+   "_url_reg_txt": "—",
+   "tipo": "Sin clasificar",
+   "avisos": [
+    "sin URL",
+    "título truncado"
+   ]
+  },
+  {
+   "id": 7,
+   "uso": "Usada en el informe",
+   "titulo": "Medellín alcanzó un 68 % en el esclarecimiento efectivo de los",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 8,
+   "uso": "Usada en el informe",
+   "titulo": "Informe sobre violencias contra las Mujeres en Antioquia 2023 y",
+   "dominio": "mujeresantioquia.gov.co",
+   "url_registrada": "https://mujeresantioquia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://mujeresantioquia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 9,
+   "uso": "Usada en el informe",
+   "titulo": "Semana violenta contra las mujeres en Antioquia: cuatro fueron",
+   "dominio": "elcolombiano.com",
+   "url_registrada": "https://elcolombiano.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) medio de prensa con trayectoria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://elcolombiano.com",
+   "tipo": "Prensa",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 10,
+   "uso": "Usada en el informe",
+   "titulo": "Observatorio Feminicidios Colombia",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 11,
+   "uso": "Usada en el informe",
+   "titulo": "Colombia: 886 feminicidios en 2024 - Volcánicas",
+   "dominio": "volcanicas.com",
+   "url_registrada": "https://volcanicas.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) medio de prensa con trayectoria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://volcanicas.com",
+   "tipo": "Prensa",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 12,
+   "uso": "Usada en el informe",
+   "titulo": "Boletín Regional - Observatorio Feminicidios Colombia",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 13,
+   "uso": "Usada en el informe",
+   "titulo": "Boletín Nacional - Observatorio Feminicidios Colombia",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 14,
+   "uso": "Usada en el informe",
+   "titulo": "ABRIL DE 2020 - Observatorio Feminicidios Colombia",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 15,
+   "uso": "Usada en el informe",
+   "titulo": "Table Extraction from PDFs and Images: How It Works - Docsumo",
+   "dominio": "docsumo.com",
+   "url_registrada": "https://docsumo.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://docsumo.com",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 16,
+   "uso": "Usada en el informe",
+   "titulo": "Our search for the best tabular-data extraction tool in 2024, and what",
+   "dominio": "source.opennews.org",
+   "url_registrada": "https://source.opennews.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://source.opennews.org",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 17,
+   "uso": "Usada en el informe",
+   "titulo": "Invoice2data documentation",
+   "dominio": "invoice2data.readthedocs.io",
+   "url_registrada": "https://invoice2data.readthedocs.io",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://invoice2data.readthedocs.io",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 18,
+   "uso": "Usada en el informe",
+   "titulo": "Extract Data From PDF: Technical Guide June 2026 - Unsiloed AI",
+   "dominio": "unsiloed.ai",
+   "url_registrada": "https://unsiloed.ai",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://unsiloed.ai",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 19,
+   "uso": "Usada en el informe",
+   "titulo": "OCR & Document Processing AI Tools \\",
+   "dominio": "builderai.tools",
+   "url_registrada": "",
+   "url_especifica": "",
+   "nota": "BuilderAI.tools",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "",
+   "_url_reg_txt": "—",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "sin URL",
+    "título truncado"
+   ]
+  },
+  {
+   "id": 20,
+   "uso": "Usada en el informe",
+   "titulo": "En 2026, 68 mujeres han sido asesinadas en Antioquia. En muchos",
+   "dominio": "facebook.com",
+   "url_registrada": "https://facebook.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "E6",
+   "motivo": "(auto) publicación en red social: autor no verificable; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://facebook.com",
+   "tipo": "Red social",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 21,
+   "uso": "Usada en el informe",
+   "titulo": "\"Beto Llanta\" fue capturado tras dispararle a su expareja en plena",
+   "dominio": "facebook.com",
+   "url_registrada": "https://facebook.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "E6",
+   "motivo": "(auto) publicación en red social: autor no verificable; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://facebook.com",
+   "tipo": "Red social",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 22,
+   "uso": "Usada en el informe",
+   "titulo": "El caso de Johanna Paola Chávez nos conmocionó a todos. La",
+   "dominio": "facebook.com",
+   "url_registrada": "https://facebook.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "E6",
+   "motivo": "(auto) publicación en red social: autor no verificable; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://facebook.com",
+   "tipo": "Red social",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 23,
+   "uso": "Usada en el informe",
+   "titulo": "Violencia contra las mujeres: Colombia registró 191 feminicidios en",
+   "dominio": "rtvcnoticias.com",
+   "url_registrada": "https://rtvcnoticias.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) medio de prensa con trayectoria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://rtvcnoticias.com",
+   "tipo": "Prensa",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 24,
+   "uso": "Usada en el informe",
+   "titulo": "Transfeminicidio en Bello: el caso de Sara Millerey en Antioquia",
+   "dominio": "rtvcnoticias.com",
+   "url_registrada": "https://rtvcnoticias.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) medio de prensa con trayectoria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://rtvcnoticias.com",
+   "tipo": "Prensa",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 25,
+   "uso": "Usada en el informe",
+   "titulo": "violencia mediática: reflexiones en torno a las prácticas discursivas",
+   "dominio": "repositorio.xoc.uam.mx",
+   "url_registrada": "https://repositorio.xoc.uam.mx",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repositorio.xoc.uam.mx",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 26,
+   "uso": "Usada en el informe",
+   "titulo": "TEMA LIBRE - SciELO Colombia",
+   "dominio": "scielo.org.co",
+   "url_registrada": "https://scielo.org.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://scielo.org.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 27,
+   "uso": "Usada en el informe",
+   "titulo": "INFORME 2021 - Feminicidio.net",
+   "dominio": "feminicidio.net",
+   "url_registrada": "https://feminicidio.net",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://feminicidio.net",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 28,
+   "uso": "Usada en el informe",
+   "titulo": "Extracción de entidades de ubicación en textos clínicos en español",
+   "dominio": "e-spacio.uned.es",
+   "url_registrada": "https://e-spacio.uned.es",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://e-spacio.uned.es",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 29,
+   "uso": "Usada en el informe",
+   "titulo": "PROGRAMA GARANTIAS, DERECHOS Y ALTERNATIVAS DE",
+   "dominio": "minigualdadyequidad.gov.co",
+   "url_registrada": "https://minigualdadyequidad.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "204 · 2026-10-03",
+   "_url_reg_txt": "https://minigualdadyequidad.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 30,
+   "uso": "Usada en el informe",
+   "titulo": "REFLEXIONES SOBRE FEMICIDIO",
+   "dominio": "perso.unifr.ch",
+   "url_registrada": "https://perso.unifr.ch",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://perso.unifr.ch",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 31,
+   "uso": "Usada en el informe",
+   "titulo": "Diferencias en conocimiento y actitudes hacia el feminicidio",
+   "dominio": "revistas.usantotomas.edu.co",
+   "url_registrada": "https://revistas.usantotomas.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://revistas.usantotomas.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 32,
+   "uso": "Usada en el informe",
+   "titulo": "Análisis de la heterogeneidad espacial de los factores que explican",
+   "dominio": "dialnet.unirioja.es",
+   "url_registrada": "https://dialnet.unirioja.es",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://dialnet.unirioja.es",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 33,
+   "uso": "Usada en el informe",
+   "titulo": "OECD ÜLKELERİ ÜZERİNE BİR ARAŞTIRMA ANALYSIS OF THE",
+   "dominio": "researchgate.net",
+   "url_registrada": "https://researchgate.net",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) ResearchGate no es el editor original; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://researchgate.net",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 34,
+   "uso": "Usada en el informe",
+   "titulo": "¿Del paramilitarismo al paramilitarismo?",
+   "dominio": "rosalux.org.ec",
+   "url_registrada": "https://rosalux.org.ec",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://rosalux.org.ec",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 35,
+   "uso": "Usada en el informe",
+   "titulo": "Generalized Modeling and Predictions in Multiscale Geographically",
+   "dominio": "mehak-sachdeva.github.io",
+   "url_registrada": "https://mehak-sachdeva.github.io",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "404 · 2026-10-03",
+   "_url_reg_txt": "https://mehak-sachdeva.github.io",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 36,
+   "uso": "Usada en el informe",
+   "titulo": "Multiscale Geographically Weighted Regression - Poisson",
+   "dominio": "mehak-sachdeva.github.io",
+   "url_registrada": "https://mehak-sachdeva.github.io",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "404 · 2026-10-03",
+   "_url_reg_txt": "https://mehak-sachdeva.github.io",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 37,
+   "uso": "Usada en el informe",
+   "titulo": "Data-Driven Framework for Understanding & Modeling Ride",
+   "dominio": "digitalcommons.odu.edu",
+   "url_registrada": "https://digitalcommons.odu.edu",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://digitalcommons.odu.edu",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 38,
+   "uso": "Usada en el informe",
+   "titulo": "(PDF) The GWR route map: a guide to the informed application of",
+   "dominio": "researchgate.net",
+   "url_registrada": "https://researchgate.net",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) ResearchGate no es el editor original; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://researchgate.net",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 39,
+   "uso": "Usada en el informe",
+   "titulo": "Aplicação da regressão geograficamente ponderada ... - Teses USP",
+   "dominio": "teses.usp.br",
+   "url_registrada": "https://teses.usp.br",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://teses.usp.br",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 40,
+   "uso": "Usada en el informe",
+   "titulo": "Mixed Geographically Weighted XGBoost (M-GWXGB) Model",
+   "dominio": "tandfonline.com",
+   "url_registrada": "https://tandfonline.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://tandfonline.com",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 41,
+   "uso": "Usada en el informe",
+   "titulo": "Encapsulating Spatially Varying Relationships with a Generalized",
+   "dominio": "mdpi.com",
+   "url_registrada": "https://mdpi.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://mdpi.com",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 42,
+   "uso": "Usada en el informe",
+   "titulo": "Generalized Geographically Weighted Regression Model within a",
+   "dominio": "pmc.ncbi.nlm.nih.gov",
+   "url_registrada": "https://pmc.ncbi.nlm.nih.gov",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://pmc.ncbi.nlm.nih.gov",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 43,
+   "uso": "Usada en el informe",
+   "titulo": "LEY 1257 DE 2008 - Oas.org",
+   "dominio": "oas.org",
+   "url_registrada": "https://oas.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://oas.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 44,
+   "uso": "Usada en el informe",
+   "titulo": "Ley 1257 - Sisma Mujer",
+   "dominio": "sismamujer.org",
+   "url_registrada": "https://sismamujer.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://sismamujer.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 45,
+   "uso": "Usada en el informe",
+   "titulo": "protocolo - Función Pública",
+   "dominio": "funcionpublica.gov.co",
+   "url_registrada": "https://funcionpublica.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "error de certificado · 2026-10-03",
+   "_url_reg_txt": "https://funcionpublica.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 46,
+   "uso": "Usada en el informe",
+   "titulo": "Efectividad de las medidas de protección a mujeres víctimas de",
+   "dominio": "publicaciones.unaula.edu.co",
+   "url_registrada": "https://publicaciones.unaula.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://publicaciones.unaula.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 47,
+   "uso": "Usada en el informe",
+   "titulo": "lineamientos para la protección de mujeres en riesgo de",
+   "dominio": "repository.usta.edu.co",
+   "url_registrada": "https://repository.usta.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://repository.usta.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 48,
+   "uso": "Usada en el informe",
+   "titulo": "Conoce el Decreto 057 del 2023 - Alcaldía de La Estrella",
+   "dominio": "2024.laestrella.gov.co",
+   "url_registrada": "https://2024.laestrella.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://2024.laestrella.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 49,
+   "uso": "Usada en el informe",
+   "titulo": "Guia-para-la-valoracion-de-percepcion-del-riesgo-de-feminicidio-en",
+   "dominio": "minjusticia.gov.co",
+   "url_registrada": "https://minjusticia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://minjusticia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 50,
+   "uso": "Usada en el informe",
+   "titulo": "protocolo de valoración del riesgo de violencia mortal contra",
+   "dominio": "medicinalegal.gov.co",
+   "url_registrada": "https://medicinalegal.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial que produce la estadística; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://medicinalegal.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 51,
+   "uso": "Usada en el informe",
+   "titulo": "El marco jurídico de carácter preventivo y correctivo con respecto al",
+   "dominio": "repository.unilibre.edu.co",
+   "url_registrada": "https://repository.unilibre.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repository.unilibre.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 52,
+   "uso": "Usada en el informe",
+   "titulo": "raices del feminicidio en colombia: historia, cifras y politicas",
+   "dominio": "repository.usta.edu.co",
+   "url_registrada": "https://repository.usta.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://repository.usta.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 53,
+   "uso": "Usada en el informe",
+   "titulo": "C-539 de 2016 - Corte Constitucional",
+   "dominio": "corteconstitucional.gov.co",
+   "url_registrada": "https://corteconstitucional.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "404 · 2026-10-03",
+   "_url_reg_txt": "https://corteconstitucional.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 54,
+   "uso": "Usada en el informe",
+   "titulo": "un análisis desde el fin preventivo general del derecho penal",
+   "dominio": "repositorio.unal.edu.co",
+   "url_registrada": "https://repositorio.unal.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repositorio.unal.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 55,
+   "uso": "Usada en el informe",
+   "titulo": "El feminicidio – un crimen de odio en contra de la mujer y la",
+   "dominio": "revistas.unisimon.edu.co",
+   "url_registrada": "https://revistas.unisimon.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) revista o índice académico; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://revistas.unisimon.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 56,
+   "uso": "Usada en el informe",
+   "titulo": "Diagnostico sobre potencialidades ley 1761 de 2015.pdf",
+   "dominio": "minjusticia.gov.co",
+   "url_registrada": "https://minjusticia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://minjusticia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 57,
+   "uso": "Usada en el informe",
+   "titulo": "La garantía al bien jurídicamente tutelado en el tipo penal de",
+   "dominio": "repository.upb.edu.co",
+   "url_registrada": "https://repository.upb.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repository.upb.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 58,
+   "uso": "Usada en el informe",
+   "titulo": "Documento de Relatoría 009 de 2018 Secretaría Jurídica Distrital",
+   "dominio": "alcaldiabogota.gov.co",
+   "url_registrada": "https://alcaldiabogota.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://alcaldiabogota.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 59,
+   "uso": "Usada en el informe",
+   "titulo": "Violencia Intrafamiliar en Mujeres: 2015 \\",
+   "dominio": "es.scribd.com",
+   "url_registrada": "",
+   "url_especifica": "",
+   "nota": "PDF - Scribd",
+   "clasif": "F6",
+   "motivo": "(auto) fuente no evaluada; contenido no verificado: solo se registró el dominio",
+   "verif": "",
+   "_url_reg_txt": "—",
+   "tipo": "Sin clasificar",
+   "avisos": [
+    "sin URL",
+    "título truncado"
+   ]
+  },
+  {
+   "id": 60,
+   "uso": "Usada en el informe",
+   "titulo": "Grupos multicrimen: entre la violencia y la paz total. Volumen 1",
+   "dominio": "centrodememoriahistorica.gov.co",
+   "url_registrada": "https://centrodememoriahistorica.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://centrodememoriahistorica.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 61,
+   "uso": "Usada en el informe",
+   "titulo": "DEL PARAMILITARISMO - Fundación Heinrich Böll",
+   "dominio": "co.boell.org",
+   "url_registrada": "https://co.boell.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://co.boell.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 62,
+   "uso": "Usada en el informe",
+   "titulo": "Mejía Quinga, Vivian Gabriela Tutora: Zambrano Carran",
+   "dominio": "dspace.uce.edu.ec",
+   "url_registrada": "https://dspace.uce.edu.ec",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://dspace.uce.edu.ec",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 63,
+   "uso": "Usada en el informe",
+   "titulo": "VIOLENCIA SEXUAL CONTRA LA MUJER EN RELACIÓN A ... - Vitela",
+   "dominio": "vitela.javerianacali.edu.co",
+   "url_registrada": "https://vitela.javerianacali.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://vitela.javerianacali.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 64,
+   "uso": "Usada en el informe",
+   "titulo": "Coordinadora de la Comisión Legal para la Equidad de la Mujer",
+   "dominio": "camara.gov.co",
+   "url_registrada": "https://camara.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "error de certificado · 2026-10-03",
+   "_url_reg_txt": "https://camara.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 65,
+   "uso": "Usada en el informe",
+   "titulo": "Lucha contra el feminicidio: Colombia necesita un cambio profundo",
+   "dominio": "unimedios.medellin.unal.edu.co",
+   "url_registrada": "https://unimedios.medellin.unal.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://unimedios.medellin.unal.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 66,
+   "uso": "Usada en el informe",
+   "titulo": "Total de mujeres victimas de feminicidio por municipio",
+   "dominio": "datos.gov.co",
+   "url_registrada": "https://datos.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial que produce la estadística; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://datos.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 67,
+   "uso": "Consultada, no usada",
+   "titulo": "Informe estadístico de violencia contra mujeres en Colombia",
+   "dominio": "repositorio.minjusticia.gov.co",
+   "url_registrada": "https://repositorio.minjusticia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://repositorio.minjusticia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 68,
+   "uso": "Consultada, no usada",
+   "titulo": "Observatorio de Asuntos de Mujer y Género",
+   "dominio": "antioquia.gov.co",
+   "url_registrada": "https://antioquia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://antioquia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 69,
+   "uso": "Consultada, no usada",
+   "titulo": "Policía en Cali capturó a los presuntos feminicidas de cuatro mujeres",
+   "dominio": "policia.gov.co",
+   "url_registrada": "https://policia.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial que produce la estadística; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://policia.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 70,
+   "uso": "Consultada, no usada",
+   "titulo": "Sentidos, experiencias y saberes diversos interpelan los territorios",
+   "dominio": "unlpam.edu.ar",
+   "url_registrada": "https://unlpam.edu.ar",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://unlpam.edu.ar",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 71,
+   "uso": "Consultada, no usada",
+   "titulo": "Untitled - Municipio de Anserma Caldas",
+   "dominio": "ansermacaldas.micolombiadigital.gov.co",
+   "url_registrada": "https://ansermacaldas.micolombiadigital.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://ansermacaldas.micolombiadigital.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 72,
+   "uso": "Consultada, no usada",
+   "titulo": "LA AMENAZA DE SER MUJER - Repository - Uniminuto",
+   "dominio": "repository.uniminuto.edu",
+   "url_registrada": "https://repository.uniminuto.edu",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repository.uniminuto.edu",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 73,
+   "uso": "Consultada, no usada",
+   "titulo": "¡La-lucha-feminista-no-se-detiene.pdf - Sisma Mujer",
+   "dominio": "sismamujer.org",
+   "url_registrada": "https://sismamujer.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://sismamujer.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 74,
+   "uso": "Consultada, no usada",
+   "titulo": "123 feminicidios en tres meses, la violencia de género no da tregua",
+   "dominio": "defensoria.gov.co",
+   "url_registrada": "https://defensoria.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://defensoria.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 75,
+   "uso": "Consultada, no usada",
+   "titulo": "Proyecto de Acuerdo Plan de Desarrollo - Alcaldía de Medellín",
+   "dominio": "medellin.gov.co",
+   "url_registrada": "https://medellin.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://medellin.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 76,
+   "uso": "Consultada, no usada",
+   "titulo": "¿Cómo está tipificado el feminicidio en Colombia y cuáles son las",
+   "dominio": "sdmujer.gov.co",
+   "url_registrada": "https://sdmujer.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://sdmujer.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 77,
+   "uso": "Consultada, no usada",
+   "titulo": "Análisis crítico del discurso sobre el feminicidio en Colombia",
+   "dominio": "repositorio.unal.edu.co",
+   "url_registrada": "https://repositorio.unal.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://repositorio.unal.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 78,
+   "uso": "Consultada, no usada",
+   "titulo": "representaciones sociales sobre género de los estudiantes de",
+   "dominio": "repository.usta.edu.co",
+   "url_registrada": "https://repository.usta.edu.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) repositorio o publicación universitaria; contenido no verificado: solo se registró el dominio",
+   "verif": "403 · 2026-10-03",
+   "_url_reg_txt": "https://repository.usta.edu.co",
+   "tipo": "Académica",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 79,
+   "uso": "Consultada, no usada",
+   "titulo": "Google Sports Data",
+   "dominio": "support.google.com",
+   "url_registrada": "https://support.google.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "404 · 2026-10-03",
+   "_url_reg_txt": "https://support.google.com",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 80,
+   "uso": "Consultada, no usada",
+   "titulo": "Ziqi Li",
+   "dominio": "sites.google.com",
+   "url_registrada": "https://sites.google.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://sites.google.com",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 81,
+   "uso": "Consultada, no usada",
+   "titulo": "My Experience with Table Extraction and Data Extraction Tools for",
+   "dominio": "reddit.com",
+   "url_registrada": "https://reddit.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "E6",
+   "motivo": "(auto) publicación en red social: autor no verificable; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://reddit.com",
+   "tipo": "Red social",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 82,
+   "uso": "Consultada, no usada",
+   "titulo": "Python OCR Library for Arabic Invoice Tables: Build vs Buy",
+   "dominio": "invoicedataextraction.com",
+   "url_registrada": "https://invoicedataextraction.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://invoicedataextraction.com",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 83,
+   "uso": "Consultada, no usada",
+   "titulo": "Best Free Document Extraction Tools in 2026: 8 Options Compared",
+   "dominio": "imagetotable.ai",
+   "url_registrada": "https://imagetotable.ai",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "(auto) blog o herramienta técnica; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://imagetotable.ai",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 84,
+   "uso": "Consultada, no usada",
+   "titulo": "¿Cómo convivir? - Rutas del Conflicto",
+   "dominio": "rutasdelconflicto.com",
+   "url_registrada": "https://rutasdelconflicto.com",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) medio de prensa con trayectoria; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://rutasdelconflicto.com",
+   "tipo": "Prensa",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 85,
+   "uso": "Consultada, no usada",
+   "titulo": "Violencia, seguridad y derechos humanos",
+   "dominio": "biblioteca.cij.gob.mx",
+   "url_registrada": "https://biblioteca.cij.gob.mx",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://biblioteca.cij.gob.mx",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 86,
+   "uso": "Consultada, no usada",
+   "titulo": "56.pdf - Banco de Datos de Derechos Humanos y Violencia Política",
+   "dominio": "nocheyniebla.org",
+   "url_registrada": "https://nocheyniebla.org",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "C6",
+   "motivo": "(auto) ONG u organismo con metodología propia; contenido no verificado: solo se registró el dominio",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://nocheyniebla.org",
+   "tipo": "ONG u organismo internacional",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 87,
+   "uso": "Consultada, no usada",
+   "titulo": "[contenido incompleto en el archivo original]",
+   "dominio": "alcaldiabogota.gov.co",
+   "url_registrada": "https://alcaldiabogota.gov.co",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B6",
+   "motivo": "(auto) entidad oficial; contenido no verificado: solo se registró el dominio",
+   "verif": "sin conexión · 2026-10-03",
+   "_url_reg_txt": "https://alcaldiabogota.gov.co",
+   "tipo": "Gobierno",
+   "avisos": [
+    "solo portada: no permite verificar el documento citado"
+   ]
+  },
+  {
+   "id": 88,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Víctimas Fiscalía - V3 (feminicidio, Art. 104A)",
+   "dominio": "datos.gov.co",
+   "url_registrada": "https://www.datos.gov.co/d/hr73-zqjf",
+   "url_especifica": "",
+   "nota": "Fase 1: solo consulta agregada (≈330 filas de 17 millones)",
+   "clasif": "B3",
+   "motivo": "Fiscalía General de la Nación; define la categoría legal; sin fuente independiente con la misma definición; rezago y registros repetidos. Ver [[Datos_Oficiales_Feminicidio]]",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://www.datos.gov.co/d/hr73-zqjf",
+   "tipo": "Gobierno",
+   "avisos": []
+  },
+  {
+   "id": 89,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "HOMICIDIO (Policía Nacional / MinDefensa)",
+   "dominio": "datos.gov.co",
+   "url_registrada": "https://www.datos.gov.co/d/m8fd-ahd9",
+   "url_especifica": "",
+   "nota": "Homicidios de mujeres por depto, arma, zona y municipio",
+   "clasif": "B2",
+   "motivo": "Registro oficial; coincide con Medicina Legal (≤ 10 %) en la mayoría de años",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://www.datos.gov.co/d/m8fd-ahd9",
+   "tipo": "Gobierno",
+   "avisos": []
+  },
+  {
+   "id": 90,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Presuntos homicidios 2015-2024, cifras definitivas (Medicina Legal)",
+   "dominio": "datos.gov.co",
+   "url_registrada": "https://www.datos.gov.co/d/vtub-3de2",
+   "url_especifica": "",
+   "nota": "Incluye presunto agresor",
+   "clasif": "B2",
+   "motivo": "Registro forense oficial definitivo; coincide con Policía",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://www.datos.gov.co/d/vtub-3de2",
+   "tipo": "Gobierno",
+   "avisos": []
+  },
+  {
+   "id": 91,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Lesiones fatales de causa externa 2025-2026, preliminar (Medicina Legal)",
+   "dominio": "datos.gov.co",
+   "url_registrada": "https://www.datos.gov.co/d/2kpj-cktv",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "B4",
+   "motivo": "Oficial pero preliminar: puede cambiar",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://www.datos.gov.co/d/2kpj-cktv",
+   "tipo": "Gobierno",
+   "avisos": []
+  },
+  {
+   "id": 92,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Proyecciones de población departamental por sexo 2018-2050 (DANE)",
+   "dominio": "dane.gov.co",
+   "url_registrada": "https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Departamental/PPED-AreaSexoEdadDep-2018-2050_VP.xlsx",
+   "url_especifica": "",
+   "nota": "Para tasas por 100.000 mujeres",
+   "clasif": "A2",
+   "motivo": "Denominador oficial de todas las entidades; es proyección, no conteo",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Departamental/PPED-AreaSexoEdadDep-2018-2050_VP.xlsx",
+   "tipo": "Gobierno",
+   "avisos": []
+  },
+  {
+   "id": 93,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Boletines regionales «Ni una menos» (Medellín y Valle de Aburrá)",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org/seguimiento-y-analisis/boletin-regional",
+   "url_especifica": "",
+   "nota": "PDF descargados (Fase 1)",
+   "clasif": "C6",
+   "motivo": "ONG con metodología propia basada en prensa; cifras aún sin contrastar. Ver [[Boletines_Observatorio]]",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org/seguimiento-y-analisis/boletin-regional",
+   "tipo": "ONG u organismo internacional",
+   "avisos": []
+  },
+  {
+   "id": 94,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Boletines nacionales «Vivas nos queremos»",
+   "dominio": "observatoriofeminicidioscolombia.org",
+   "url_registrada": "https://observatoriofeminicidioscolombia.org/seguimiento-y-analisis/boletin-nacional",
+   "url_especifica": "",
+   "nota": "Solo inventario en Fase 1; PDF con --nacional",
+   "clasif": "C6",
+   "motivo": "Igual que la fila 93",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://observatoriofeminicidioscolombia.org/seguimiento-y-analisis/boletin-nacional",
+   "tipo": "ONG u organismo internacional",
+   "avisos": []
+  },
+  {
+   "id": 95,
+   "uso": "Datos descargados (Fase 1)",
+   "titulo": "Google News RSS (búsqueda de prensa)",
+   "dominio": "news.google.com",
+   "url_registrada": "https://news.google.com/rss/search?q=feminicidio+Antioquia&hl=es-419&gl=CO&ceid=CO:es-419",
+   "url_especifica": "",
+   "nota": "",
+   "clasif": "D6",
+   "motivo": "Agregador: no es el editor; cada noticia se clasifica aparte en [[Registro_de_Noticias]]",
+   "verif": "200 · 2026-10-03",
+   "_url_reg_txt": "https://news.google.com/rss/search?q=feminicidio+Antioquia&hl=es-419&gl=CO&ceid=CO:es-419",
+   "tipo": "Herramienta o blog técnico",
+   "avisos": []
+  }
+ ]
+}

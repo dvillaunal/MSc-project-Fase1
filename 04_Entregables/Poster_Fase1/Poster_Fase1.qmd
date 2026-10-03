@@ -1,0 +1,164 @@
+---
+title: "Modelación analítica de la heterogeneidad espacial y minería de texto sobre el feminicidio en el departamento de Antioquia para el diseño de políticas públicas de prevención territorial"
+subtitle: "(Formato Primera Entrega Póster)"
+estudiante: "Daniel Felipe Villa Rengifo"
+programa: "Maestría en Ingeniería – Analítica"
+facultad: "Facultad de Minas · Universidad Nacional de Colombia, Sede Medellín"
+grupo: "Departamento de Ciencias de la Computación y la Decisión"
+logo-izq: "logos/escudo-unal-2016.svg"
+lang: es
+format:
+  poster-unal-typst:
+    keep-typ: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+source("R/datos_poster.R")
+source("R/figuras_poster.R")
+
+REPO <- "https://github.com/dvillaunal/Msc-Project"  # dirección del repositorio público (QR y pie)
+
+f_tasas <- guardar(fig_tasas(), "f1_tasas", 35, 8.4)
+f_tip   <- guardar(fig_tipificacion(), "f2_tipificacion", 35, 7)
+f_muni  <- guardar(fig_municipios(), "f3_municipios", 35, 10.6)
+f_fuen  <- guardar(fig_fuentes(), "f4_fuentes", 35, 9.5)
+f_brech <- guardar(fig_brecha(), "f5_brecha", 35, 6.4)
+f_qr    <- qr_repo(REPO)
+
+typ <- function(...) cat("\n```{=typst}\n", ..., "\n```\n", sep = "")
+img <- function(ruta) paste0('"', ruta, '"')
+```
+
+```{r}
+#| output: asis
+typ('
+#grid(
+  columns: (1fr, 1fr, 1fr), column-gutter: 1.2cm, row-gutter: 1.0cm,
+
+  seccion(1, [Motivación], subtitulo: [Contexto / Propósito])[
+    #figura(', img(f_tasas), ')[*Figura 1.* Homicidios de mujeres por cada 100.000 mujeres. Fuente: Medicina Legal y proyecciones DANE. \\*2025 preliminar.]
+    #v(0.3cm)
+    - En 2023 fueron asesinadas *', c_ml23, '* mujeres en Antioquia (Medicina Legal; ', c_pol23, ' según la Policía).
+    - La tasa bajó de ', num(c_t18, 1), ' a ', num(c_t24, 1), ' entre 2018 y 2024; desde 2022 está por debajo de la nacional.
+    - *', pct(c_rural), '* de los casos ocurre en zona rural.
+    #destacado[*Propósito:* integrar registros oficiales y textos públicos para explicar por qué el riesgo cambia de un municipio a otro.]
+  ],
+
+  seccion(2, [Marco teórico], subtitulo: [De referencia])[
+    - *Continuum de violencia:* el feminicidio es el desenlace de violencias previas, no un hecho aislado.
+    - *Heterogeneidad espacial:* los factores asociados no pesan igual en todo el territorio; la regresión de Poisson geográficamente ponderada los estima por zona (Nakaya et al., 2005).
+    - *Marco legal:* Ley 1257 de 2008 y Ley 1761 de 2015, que tipifica el feminicidio como delito autónomo.
+    - *Minería de texto:* permite recuperar arma, vínculo y lugar a partir de relatos de prensa (García Alzate, 2022).
+    #v(0.2cm)
+    #figura(', img(f_tip), ')[*Figura 2.* Víctimas registradas por feminicidio en Colombia. La tipificación crece después de la Ley 1761 de 2015. Fuente: Fiscalía General de la Nación.]
+  ],
+
+  seccion(3, [Qué], subtitulo: [Objeto de estudio])[
+    - *Objeto:* la violencia letal contra las mujeres en los 125 municipios de Antioquia.
+    - *Sistema:* casos y tasas por municipio y año (2015–2026).
+    - *Entorno:* ruralidad, conflicto armado, economías ilegales y discurso público en prensa y redes.
+    - *Unidad de análisis:* municipio–año.
+    #v(0.2cm)
+    #figura(', img(f_muni), ')[*Figura 3.* Municipios con más homicidios de mujeres, 2018–2026. Medellín concentra ', pct(c_medellin), '; el Bajo Cauca aparece con cuatro municipios. Fuente: Policía Nacional.]
+  ],
+
+  seccion(4, [Proceso o método], subtitulo: [Cómo])[
+    #let paso(n, t, d) = block(width: 100%, height: 8.8cm, fill: verde.lighten(82%), inset: 0.5cm, radius: 0.3cm)[
+      #text(size: 26pt, weight: "bold", fill: verde-osc)[#n. #t] \\
+      #text(size: 22pt)[#d]
+    ]
+    #let flecha = text(size: 40pt, fill: verde)[→]
+    #grid(columns: (1fr, auto, 1fr, auto, 1fr, auto, 1fr), column-gutter: 0.25cm, align: horizon,
+      paso(1, [Adquisición], [APIs de datos.gov.co, ', c_boletines, ' boletines, ', c_noticias, ' noticias, ', c_x, ' posts en X y ', c_fb, ' comentarios en Facebook]), flecha,
+      paso(2, [Validación], [Fiabilidad A–F y credibilidad 1–6; contraste entre registros]), flecha,
+      paso(3, [Exploración], [Tasas con población DANE, comparación departamental y municipal]), flecha,
+      paso(4, [Fase 2], [Modelo espacial con variables de texto]),
+    )
+    #v(0.4cm)
+    #text(size: 34pt, weight: "bold", fill: verde-osc)[Alcance según los datos]
+    #v(0.1cm)
+    #set text(size: 26pt)
+    #table(columns: (8cm, 1fr), stroke: none, inset: (x: 0.3cm, y: 0.28cm), fill: (_, y) => if calc.odd(y) { verde.lighten(85%) },
+      [*Descriptivo*], [Alcanzado: tasas, comparaciones y concentración territorial.],
+      [*Reactivo*], [Posible: prensa y redes se actualizan a diario.],
+      [*Explicativo*], [Objetivo de la tesis: panel municipal 2015–2025.],
+      [*Anticipativo*], [No viable: pocos casos por municipio y rezago en la tipificación.],
+    )
+    #v(0.2cm)
+    *Limitaciones:* subregistro; cifras 2025–2026 preliminares; ', c_ocr, ' boletines escaneados sin texto; Facebook sin sesión solo muestra publicaciones recientes.
+  ],
+
+  seccion(5, [Avances RSL])[
+    - *Protocolo:* Kitchenham y PRISMA 2020.
+    - *Corpus preliminar:* ', c_fuentes, ' fuentes y ', c_conjuntos, ' conjuntos de datos, cada uno con su nivel de fiabilidad.
+    #v(0.1cm)
+    #figura(', img(f_fuen), ')[*Figura 4.* Fuentes consultadas por tipo y fiabilidad de la fuente (escala A–F del código Admiralty).]
+    #v(0.2cm)
+    - *Hallazgo:* el trabajo de referencia extrae casos de una sola fuente no oficial y no incorpora el territorio (García Alzate, 2022).
+    - *Brecha:* en el corpus revisado no hay modelos municipales para Antioquia que combinen registros oficiales, texto y espacio.
+  ],
+
+  seccion(6, [Identificación del problema])[
+    Policía y Medicina Legal coinciden en el número de víctimas (≤ 10 % de diferencia en ', c_corr_ok, ' de ', c_corr_n, ' años), pero no explican por qué:
+    - En ', pct(c_desc_min), ' a ', pct(c_desc_max), ' de los casos no se sabe quién fue el agresor.
+    - Solo ', pct(c_tip23), ' (2023) y ', pct(c_tip24), ' (2024) de los homicidios de mujeres quedan registrados como feminicidio.
+    #v(0.1cm)
+    #figura(', img(f_brech), ')[*Figura 5.* Antioquia: tres formas de contar. Fuentes: Medicina Legal, Observatorio Feminicidios Colombia y Fiscalía.]
+    #destacado[*Pregunta:* ¿qué factores territoriales y discursivos explican la variación municipal de la violencia letal contra las mujeres en Antioquia?]
+  ],
+)
+
+#v(1.0cm)
+
+#grid(
+  columns: (1fr, 1fr, 1fr), column-gutter: 1.2cm,
+  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+    #text(size: 44pt, weight: "bold", fill: verde-osc)[7\\. Referencias]
+    #v(0.2cm)
+    #set text(font: "Ancizar Serif", size: 22pt)
+    #set par(hanging-indent: 1.2em, leading: 0.45em, spacing: 0.5em)
+    Congreso de la República de Colombia. (2015). _Ley 1761 de 2015, por la cual se crea el tipo penal de feminicidio como delito autónomo_. Diario Oficial.
+
+    Fiscalía General de la Nación. (2026). _Víctimas Fiscalía – V3_ [Conjunto de datos]. Datos Abiertos Colombia. https://www.datos.gov.co/d/hr73-zqjf
+
+    García Alzate, D. (2022). _Seguimiento de casos de feminicidio en Colombia mediante técnicas de minería de texto_ [Tesis de maestría, Universidad Nacional de Colombia].
+
+    Instituto Nacional de Medicina Legal y Ciencias Forenses. (2025). _Presuntos homicidios. Colombia, 2015 a 2024. Cifras definitivas_ [Conjunto de datos]. https://www.datos.gov.co/d/vtub-3de2
+
+    Nakaya, T., Fotheringham, A. S., Brunsdon, C. y Charlton, M. (2005). Geographically weighted Poisson regression for disease association mapping. _Statistics in Medicine, 24_(17), 2695–2717.
+
+    Observatorio Feminicidios Colombia. (2017–2024). _Ni una menos: boletín de feminicidios en Medellín y el Valle de Aburrá_. Red Feminista Antimilitarista.
+  ],
+  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+    #text(size: 44pt, weight: "bold", fill: verde-osc)[Más información]
+    #v(0.3cm)
+    #grid(columns: (9.5cm, 1fr), column-gutter: 1cm, align: horizon,
+      image(', img(f_qr), ', width: 9.5cm),
+      [
+        #text(size: 28pt)[Repositorio del proyecto: código, datos procesados y notas de trabajo.]
+        #v(0.4cm)
+        #text(size: 22pt, fill: gris)[', sub("^https?://", "", REPO), ']
+      ],
+    )
+  ],
+  block(width: 100%, height: 13.6cm, fill: white, inset: (x: 1.3cm, y: 0.9cm), stroke: (top: 8pt + verde))[
+    #text(size: 44pt, weight: "bold", fill: verde-osc)[Directores / Asesores]
+    #v(0.5cm)
+    #grid(columns: (1fr, 9.5cm), column-gutter: 1cm, align: horizon,
+      [
+        #text(size: 36pt, weight: "bold")[Fernán Alonso Villa Garzón, Ph.D.] \\
+        #text(size: 28pt, fill: gris)[Tutor] \\
+        #v(0.3cm)
+        #text(size: 26pt, fill: gris)[Departamento de Ciencias de la Computación y la Decisión, Facultad de Minas]
+      ],
+      image("logos/logotipo-unal.svg", width: 9.5cm),
+    )
+  ],
+)
+')
+```

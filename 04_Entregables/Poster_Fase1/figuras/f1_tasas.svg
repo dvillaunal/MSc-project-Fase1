@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='992.13pt' height='238.11pt' viewBox='0 0 992.13 238.11'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw5OTIuMTN8MC4wMHwyMzguMTE='>
+    <rect x='0.00' y='0.00' width='992.13' height='238.11' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw5OTIuMTN8MC4wMHwyMzguMTE=)'>
+<rect x='0.00' y='0.000000000000028' width='992.13' height='238.11' style='stroke-width: 2.52; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMjguNzF8OTc4LjE4fDc3Ljk5fDIwMi45Ng=='>
+    <rect x='28.71' y='77.99' width='949.47' height='124.97' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMjguNzF8OTc4LjE4fDc3Ljk5fDIwMi45Ng==)'>
+<polyline points='28.71,197.28 978.18,197.28 ' style='stroke-width: 1.28; stroke: #E3E5E0; stroke-linecap: butt;' />
+<polyline points='28.71,164.82 978.18,164.82 ' style='stroke-width: 1.28; stroke: #E3E5E0; stroke-linecap: butt;' />
+<polyline points='28.71,132.36 978.18,132.36 ' style='stroke-width: 1.28; stroke: #E3E5E0; stroke-linecap: butt;' />
+<polyline points='28.71,99.90 978.18,99.90 ' style='stroke-width: 1.28; stroke: #E3E5E0; stroke-linecap: butt;' />
+<polyline points='71.87,108.86 195.18,109.82 318.48,132.74 441.79,124.56 565.10,137.25 688.41,139.98 811.71,146.83 ' style='stroke-width: 4.69; stroke: #456A3E; stroke-linecap: butt;' />
+<polyline points='71.87,128.59 195.18,132.68 318.48,140.60 441.79,135.48 565.10,130.76 688.41,135.51 811.71,134.75 ' style='stroke-width: 4.69; stroke: #BFC3BC; stroke-linecap: butt;' />
+<polyline points='811.71,146.83 935.02,140.33 ' style='stroke-width: 4.69; stroke: #456A3E; stroke-dasharray: 12.52,12.52; stroke-linecap: butt;' />
+<polyline points='811.71,134.75 935.02,129.98 ' style='stroke-width: 4.69; stroke: #BFC3BC; stroke-dasharray: 12.52,12.52; stroke-linecap: butt;' />
+<circle cx='71.87' cy='108.86' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='195.18' cy='109.82' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='318.48' cy='132.74' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='441.79' cy='124.56' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='565.10' cy='137.25' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='688.41' cy='139.98' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='811.71' cy='146.83' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='935.02' cy='140.33' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<circle cx='71.87' cy='128.59' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='195.18' cy='132.68' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='318.48' cy='140.60' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='441.79' cy='135.48' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='565.10' cy='130.76' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='688.41' cy='135.51' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='811.71' cy='134.75' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<circle cx='935.02' cy='129.98' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<text x='71.87' y='95.64' text-anchor='middle' style='font-size: 24.00px;fill: #456A3E; font-family: "Ancizar Sans";' textLength='30.83px' lengthAdjust='spacingAndGlyphs'>5,4</text>
+<text x='811.71' y='174.74' text-anchor='middle' style='font-size: 24.00px;fill: #456A3E; font-family: "Ancizar Sans";' textLength='30.83px' lengthAdjust='spacingAndGlyphs'>3,1</text>
+<text x='71.87' y='156.50' text-anchor='middle' style='font-size: 24.00px;fill: #BFC3BC; font-family: "Ancizar Sans";' textLength='30.83px' lengthAdjust='spacingAndGlyphs'>4,2</text>
+<text x='811.71' y='121.53' text-anchor='middle' style='font-size: 24.00px;fill: #BFC3BC; font-family: "Ancizar Sans";' textLength='30.83px' lengthAdjust='spacingAndGlyphs'>3,9</text>
+</g>
+<g clip-path='url(#cpMC4wMHw5OTIuMTN8MC4wMHwyMzguMTE=)'>
+<text x='17.06' y='203.64' text-anchor='end' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='11.08px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='17.06' y='171.18' text-anchor='end' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='10.92px' lengthAdjust='spacingAndGlyphs'>2</text>
+<text x='17.06' y='138.73' text-anchor='end' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='10.92px' lengthAdjust='spacingAndGlyphs'>4</text>
+<text x='17.06' y='106.27' text-anchor='end' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='10.92px' lengthAdjust='spacingAndGlyphs'>6</text>
+<text x='71.87' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2018</text>
+<text x='195.18' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2019</text>
+<text x='318.48' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='44.00px' lengthAdjust='spacingAndGlyphs'>2020</text>
+<text x='441.79' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2021</text>
+<text x='565.10' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2022</text>
+<text x='688.41' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2023</text>
+<text x='811.71' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='43.84px' lengthAdjust='spacingAndGlyphs'>2024</text>
+<text x='935.02' y='227.34' text-anchor='middle' style='font-size: 20.80px;fill: #55595B; font-family: "Ancizar Sans";' textLength='52.59px' lengthAdjust='spacingAndGlyphs'>2025*</text>
+<line x1='43.39' y1='29.03' x2='57.22' y2='29.03' style='stroke-width: 4.69; stroke: #456A3E; stroke-linecap: butt;' />
+<line x1='43.39' y1='29.03' x2='57.22' y2='29.03' style='stroke-width: 4.69; stroke: #456A3E; stroke-dasharray: 12.52,12.52; stroke-linecap: butt;' />
+<circle cx='50.30' cy='29.03' r='6.17' style='stroke-width: 1.68; stroke: #456A3E; fill: #456A3E;' />
+<line x1='178.09' y1='29.03' x2='191.91' y2='29.03' style='stroke-width: 4.69; stroke: #BFC3BC; stroke-linecap: butt;' />
+<line x1='178.09' y1='29.03' x2='191.91' y2='29.03' style='stroke-width: 4.69; stroke: #BFC3BC; stroke-dasharray: 12.52,12.52; stroke-linecap: butt;' />
+<circle cx='185.00' cy='29.03' r='6.17' style='stroke-width: 1.68; stroke: #BFC3BC; fill: #BFC3BC;' />
+<text x='71.89' y='36.38' style='font-size: 24.00px; font-family: "Ancizar Sans";' textLength='91.52px' lengthAdjust='spacingAndGlyphs'>Antioquia</text>
+<text x='206.59' y='36.38' style='font-size: 24.00px; font-family: "Ancizar Sans";' textLength='88.50px' lengthAdjust='spacingAndGlyphs'>Colombia</text>
+</g>
+</g>
+</svg>

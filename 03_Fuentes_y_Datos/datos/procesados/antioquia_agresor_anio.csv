@@ -1,0 +1,186 @@
+departamento,anio,agresor,n,pareja
+ANTIOQUIA,2020,Sin información,80,False
+ANTIOQUIA,2017,Compañero (a)  permanente,7,True
+ANTIOQUIA,2024,Madrastra,1,False
+ANTIOQUIA,2017,Delincuencia común,3,False
+ANTIOQUIA,2015,Novio (a),3,True
+ANTIOQUIA,2019,Novio (a),3,True
+ANTIOQUIA,2023,Paramilitares,1,False
+ANTIOQUIA,2024,Ex esposo(a),2,True
+ANTIOQUIA,2020,Compañero (a)  permanente,8,True
+ANTIOQUIA,2023,Sin información,53,False
+ANTIOQUIA,2020,Novio (a),2,True
+ANTIOQUIA,2024,Otros familiares civiles o consanguíneos,1,False
+ANTIOQUIA,2018,Novio (a),2,True
+ANTIOQUIA,2024,Agresor desconocido,16,False
+ANTIOQUIA,2022,Vecino,2,False
+ANTIOQUIA,2015,Hijo (a),1,False
+ANTIOQUIA,2020,Padrastro,1,False
+ANTIOQUIA,2018,Madre,1,False
+ANTIOQUIA,2016,Amigo (a),1,False
+ANTIOQUIA,2017,Hijo (a),1,False
+ANTIOQUIA,2020,ELN,1,False
+ANTIOQUIA,2022,Arrendatario,1,False
+ANTIOQUIA,2021,Ex - esposo (a),1,True
+ANTIOQUIA,2016,Compañero (a)  permanente,11,True
+ANTIOQUIA,2020,Ex - compañero (a) permanente,2,True
+ANTIOQUIA,2015,Compañero (a)  permanente,14,True
+ANTIOQUIA,2021,Agresor desconocido,24,False
+ANTIOQUIA,2022,Hermano (a),1,False
+ANTIOQUIA,2020,Agresor desconocido,23,False
+ANTIOQUIA,2020,Conocido sin ningun trato,2,False
+ANTIOQUIA,2019,Paramilitares,1,False
+ANTIOQUIA,2024,Esposo(a),1,True
+ANTIOQUIA,2016,Familiar,3,False
+ANTIOQUIA,2024,Fuerzas irregulares,1,False
+ANTIOQUIA,2016,Sin información,65,False
+ANTIOQUIA,2024,Padrastro,1,False
+ANTIOQUIA,2015,Otro,1,False
+ANTIOQUIA,2024,Compañero(a) de trabajo,1,False
+ANTIOQUIA,2017,Empleado (a),1,False
+ANTIOQUIA,2016,Madre,1,False
+ANTIOQUIA,2019,Hijo (a),2,False
+ANTIOQUIA,2021,Sin información,81,False
+ANTIOQUIA,2018,Vecino,2,False
+ANTIOQUIA,2019,Esposo (a),4,True
+ANTIOQUIA,2021,Padrastro,1,False
+ANTIOQUIA,2022,Novio (a),3,True
+ANTIOQUIA,2021,Otros familiares civiles o consanguíneos,3,False
+ANTIOQUIA,2016,Fuerzas militares,1,False
+ANTIOQUIA,2017,Sin información,101,False
+ANTIOQUIA,2022,Esposo (a),1,True
+ANTIOQUIA,2023,Delincuencia común,1,False
+ANTIOQUIA,2017,Ex - Novio (a),3,True
+ANTIOQUIA,2017,Madrastra,1,False
+ANTIOQUIA,2017,Novio (a),2,True
+ANTIOQUIA,2016,Ex - compañero (a) permanente,5,True
+ANTIOQUIA,2017,Amigo (a),1,False
+ANTIOQUIA,2017,Amante,2,True
+ANTIOQUIA,2017,Conocido sin ningun trato,4,False
+ANTIOQUIA,2018,Pandillas,2,False
+ANTIOQUIA,2015,Fuerzas militares,7,False
+ANTIOQUIA,2017,Otros familiares civiles y consanguíneos,1,False
+ANTIOQUIA,2017,Ex esposo (a),2,True
+ANTIOQUIA,2024,Hijo(a),2,False
+ANTIOQUIA,2021,Compañero (a)  permanente,13,True
+ANTIOQUIA,2015,Agresor desconocido,23,False
+ANTIOQUIA,2017,Narcotraficantes,1,False
+ANTIOQUIA,2021,Ex - Novio (a),1,True
+ANTIOQUIA,2021,Delincuencia común,1,False
+ANTIOQUIA,2020,Pandillas,2,False
+ANTIOQUIA,2024,Vecino,1,False
+ANTIOQUIA,2017,Pandillas,1,False
+ANTIOQUIA,2018,Fuerzas militares,5,False
+ANTIOQUIA,2019,Compañero (a)  permanente,9,True
+ANTIOQUIA,2017,Padrastro,1,False
+ANTIOQUIA,2018,Fuerzas irregulares,3,False
+ANTIOQUIA,2020,Hermano (a),1,False
+ANTIOQUIA,2019,Ex - compañero (a) permanente,1,True
+ANTIOQUIA,2018,Delincuencia común,3,False
+ANTIOQUIA,2018,Otros familiares civiles o consanguíneos,2,False
+ANTIOQUIA,2024,Delincuencia común,1,False
+ANTIOQUIA,2022,Delincuencia común,1,False
+ANTIOQUIA,2016,Pandillas,2,False
+ANTIOQUIA,2023,Fuerzas irregulares,25,False
+ANTIOQUIA,2019,Amigo (a),1,False
+ANTIOQUIA,2018,Hijo (a),1,False
+ANTIOQUIA,2015,Ex - compañero (a) permanente,5,True
+ANTIOQUIA,2022,Sin información,72,False
+ANTIOQUIA,2019,Otros familiares civiles o consanguíneos,2,False
+ANTIOQUIA,2021,Padre,1,False
+ANTIOQUIA,2019,Tío (a),1,False
+ANTIOQUIA,2019,Conocido sin ningun trato,4,False
+ANTIOQUIA,2019,Pandillas,2,False
+ANTIOQUIA,2016,Ex - Novio (a),2,True
+ANTIOQUIA,2023,Vecino,2,False
+ANTIOQUIA,2020,Ex - Novio (a),1,True
+ANTIOQUIA,2020,Ex - esposo (a),2,True
+ANTIOQUIA,2015,Ex - Novio (a),1,True
+ANTIOQUIA,2018,Policía,1,False
+ANTIOQUIA,2022,Conocido sin ningun trato,1,False
+ANTIOQUIA,2016,Agresor desconocido,20,False
+ANTIOQUIA,2018,Ex - Novio (a),3,True
+ANTIOQUIA,2016,Ex - Amante,2,True
+ANTIOQUIA,2020,Amigo (a),2,False
+ANTIOQUIA,2015,Sin información,67,False
+ANTIOQUIA,2019,Vecino,1,False
+ANTIOQUIA,2020,Fuerzas irregulares,1,False
+ANTIOQUIA,2021,Ex compañero (a) permanente,4,True
+ANTIOQUIA,2022,Compañero (a) permanente,9,True
+ANTIOQUIA,2015,Delincuencia común,1,False
+ANTIOQUIA,2021,Fuerzas militares,4,False
+ANTIOQUIA,2024,Sin información,52,False
+ANTIOQUIA,2021,Esposo (a),5,True
+ANTIOQUIA,2018,Narcotraficantes,1,False
+ANTIOQUIA,2018,Ex - compañero (a) permanente,3,True
+ANTIOQUIA,2019,Agresor desconocido,31,False
+ANTIOQUIA,2021,Novio (a),2,True
+ANTIOQUIA,2022,Ex - Novio (a),2,True
+ANTIOQUIA,2020,Padre,1,False
+ANTIOQUIA,2015,Padrastro,1,False
+ANTIOQUIA,2024,Compañero(a) permanente,11,True
+ANTIOQUIA,2015,Pandillas,1,False
+ANTIOQUIA,2021,Amigo (a),5,False
+ANTIOQUIA,2023,Ex novio (a),1,True
+ANTIOQUIA,2016,Paramilitares,1,False
+ANTIOQUIA,2024,Amigo(a),1,False
+ANTIOQUIA,2018,Sin información,108,False
+ANTIOQUIA,2022,Hijo (a),1,False
+ANTIOQUIA,2021,Conocido sin ningun trato,3,False
+ANTIOQUIA,2019,Ex - Novio (a),3,True
+ANTIOQUIA,2023,Otras guerrillas,1,False
+ANTIOQUIA,2015,Conocido sin ningun trato,3,False
+ANTIOQUIA,2019,Sin información,112,False
+ANTIOQUIA,2015,Padre,3,False
+ANTIOQUIA,2018,Compañero (a)  permanente,14,True
+ANTIOQUIA,2016,Vecino,3,False
+ANTIOQUIA,2016,Padrastro,1,False
+ANTIOQUIA,2024,Novio(a),5,True
+ANTIOQUIA,2020,Delincuencia común,1,False
+ANTIOQUIA,2024,Conocido sin ningún trato,3,False
+ANTIOQUIA,2017,Vecino,4,False
+ANTIOQUIA,2022,Ex compañero (a) permanente,2,True
+ANTIOQUIA,2016,Novio (a),2,True
+ANTIOQUIA,2017,Agresor desconocido,21,False
+ANTIOQUIA,2017,Esposo (a),5,True
+ANTIOQUIA,2021,Ex - Amante,1,True
+ANTIOQUIA,2016,Delincuencia común,2,False
+ANTIOQUIA,2024,Ex novio(a),3,True
+ANTIOQUIA,2023,Ex compañero (a) permanente,8,True
+ANTIOQUIA,2016,Policía,1,False
+ANTIOQUIA,2015,Ex - Amante,1,True
+ANTIOQUIA,2017,Hermano (a),1,False
+ANTIOQUIA,2019,Delincuencia común,3,False
+ANTIOQUIA,2023,Hijo (a),1,False
+ANTIOQUIA,2020,Fuerzas militares,2,False
+ANTIOQUIA,2024,Policía,2,False
+ANTIOQUIA,2015,Vecino,2,False
+ANTIOQUIA,2023,Conocido sin ningun trato,2,False
+ANTIOQUIA,2020,Policía,1,False
+ANTIOQUIA,2017,Compañero (a) de trabajo,1,False
+ANTIOQUIA,2022,Agresor desconocido,28,False
+ANTIOQUIA,2019,Madre,1,False
+ANTIOQUIA,2023,Agresor desconocido,17,False
+ANTIOQUIA,2022,Pandillas,1,False
+ANTIOQUIA,2015,Policía,1,False
+ANTIOQUIA,2020,Servicios de inteligencia,1,False
+ANTIOQUIA,2023,Compañero (a) permanente,11,True
+ANTIOQUIA,2020,Otros familiares civiles o consanguíneos,1,False
+ANTIOQUIA,2020,Vecino,1,False
+ANTIOQUIA,2022,Madre,1,False
+ANTIOQUIA,2021,Arrendatario,1,False
+ANTIOQUIA,2021,Pandillas,1,False
+ANTIOQUIA,2015,Otros familiares civiles o consanguineos,2,False
+ANTIOQUIA,2024,Arrendatario,1,False
+ANTIOQUIA,2015,Amigo (a),1,False
+ANTIOQUIA,2018,Agresor desconocido,28,False
+ANTIOQUIA,2022,Otras guerrillas,1,False
+ANTIOQUIA,2022,Fuerzas militares,2,False
+ANTIOQUIA,2017,Padre,1,False
+ANTIOQUIA,2024,Ex compañero(a) permanente,4,True
+ANTIOQUIA,2021,Hijo (a),3,False
+ANTIOQUIA,2016,Padre,2,False
+ANTIOQUIA,2018,Ex - Amante,1,True
+ANTIOQUIA,2016,Conocido sin ningun trato,1,False
+ANTIOQUIA,2017,Cuñado (a),1,False
+ANTIOQUIA,2023,Otros familiares civiles o consanguíneos,1,False
